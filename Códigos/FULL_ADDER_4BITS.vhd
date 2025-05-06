@@ -6,8 +6,8 @@ entity FULL_ADDER_4BITS is
         A, B: in STD_LOGIC_VECTOR(3 downto 0);
         Cin : in STD_LOGIC;
         Sum : out STD_LOGIC_VECTOR(3 downto 0);
-        Cout: out STD_LOGIC;
-    )
+        Cout: out STD_LOGIC
+    );
 
 end entity FULL_ADDER_4BITS;
 
