@@ -16,7 +16,7 @@ architecture Behavioral of FULL_ADDER_4BITS is -- Chama full adder 1 bit
     component ADDER_1BIT
         Port (
             A, B, Cin: in STD_LOGIC;
-            Sum, Cout: out STD_LOGIC;
+            Sum, Cout: out STD_LOGIC
         );
 
     end component;
